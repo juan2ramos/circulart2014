@@ -60,7 +60,7 @@
         <li><a href="noticias">agendamiento</a></li>
         <li><a href="contacto">showcases</a></li>
         <li><a href="contacto">georeferenciación</a></li>
-        <li><a href="contacto">catalogo</a></li>
+        <li><a href="contacto">catálogo</a></li>
     </ul>
     <div id="network">
         <ul>

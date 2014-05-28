@@ -41,7 +41,7 @@
 <header>
     <div id="slide">
         <figure id="header-buttom">
-            <img src="images/header/<?php echo($url)?>.jpg">
+            <img src="images/header/<?php echo($url)?>.png">
         </figure>
     </div>
     <div class="contend-header">
@@ -53,8 +53,28 @@
 </header>
 <nav>
     <ul>
-        <li><a href="que-es" class="active">convocatoria</a></li>
-        <li><a href="portafolio">curaduría</a></li>
+        <li>
+            <a href="que-es" class="active">convocatoria</a>
+            <ul class="submenu">
+                <li><a href="">REGISTRARSE</a></li>
+                <li class="a-submenu"><a href="">CONDICIONES</a>
+                    <ul class="nivel-2">
+                        <li><a href="">Quienes pueden participar</a></li>
+                        <li><a href="">Requisitos</a></li>
+                        <li><a href="">Derechos y obligaciones</a></li>
+                    </ul>
+                </li>
+                <li><a href="">CRONOGRAMA</a></li>
+                <li><a href="">EVALUACION</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="portafolio" class="a-next">
+                curaduría
+                <p class="next">Próximamente publicaremos la información sobre curadores...</p>
+            </a>
+
+        </li>
         <li><a href="mercado">artistas</a></li>
         <li><a href="radio">profesionales</a></li>
         <li><a href="noticias">agendamiento</a></li>
@@ -66,7 +86,6 @@
         <ul>
             <li id="twitter"><a href="#"><span class="icon-twitter"></span></a></li>
             <li id="facebook"><a href="#"><span class="icon-facebook"></span></a></li>
-            <li id="pinterest"><a href="#"><span class="icon-pinterest"></span></a></li>
             <li id="youtube"><a href="#"><span class="icon-uniE603"></span></a></li>
         </ul>
     </div>

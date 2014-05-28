@@ -1,3 +1,14 @@
+<section >
+    <div class="download">
+        <span>¿Qué es una rueda de negocios?</span>
+        <span class="orange">Jornadas preparatorias</span>
+    </div>
+    <div class="download download-contend">
+        <figure><img src="images/human-circulart.png" alt=""/></figure>
+        <p class="p-download">DESCARGA</p>
+        <p class="p">la convocatoria completa</p>
+    </div>
+</section>
 <section id="<?php echo($url) ?>">
     <h2 class="<?php echo($url) ?>">circulart</h2>
     <article>

@@ -77,8 +77,8 @@ html, body {
 section {
     -webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;
     margin: 0;
-    padding-left: 20px;
-    width: 100%;
+    margin: 0 auto	;
+    width: 1060px
 }
 h2{
     color: #48463F;
@@ -91,8 +91,9 @@ h2{
 header
 ===================================================================*/
 header {
-    margin: 10px 0;
+    margin: 20px auto 0;
     position: relative;
+    width: 1060px
 }
 header img{
     width: 1060px;
@@ -108,10 +109,61 @@ header img{
 
 }
 /*=================================================================
+Download
+===================================================================*/
+.download{
+    -webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;
+    margin: 20px 0 0 0 ;
+    position: relative;
+    text-align: right;
+    width: 1060px;
+}
+.download span{
+    background: #00A8A6;
+    color: #fff;
+    display: inline-block;
+    margin: 0 0 0 5px;
+    padding: 3px 6px;
+}
+.download-contend{
+    background: #302F33;
+    height: 150px;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+    text-align: left;
+}
+.download-contend figure{
+    left: 416px;
+    position: absolute;
+    top: -100px;
+    z-index: 2;
+}
+.download p{
+    color: #ffffff;
+    position: absolute;
+    width: 500px;
+    z-index: 1;
+}
+.p-download{
+    background: #00A8A6;
+    font-size: 2.3em;
+    line-height: 33px;
+    padding: 0 30px;
+    top:30px;
+}
+.p{
+    border-bottom: 3px solid #00A8A6;
+    font-size: 1em;
+    padding: 0 30px;
+    top:84px;
+}
+/*=================================================================
 Nav
 ===================================================================*/
 nav > ul{
-    width: 1060px;
+    margin: 0 auto	;
+    width: 1060px
 }
 
 nav a {
@@ -125,23 +177,73 @@ nav a {
 }
 
 nav a:hover {
-    border-bottom: 5px solid #be6b50;
+    border-bottom: 5px solid #00A8A6;
     color: #be6b50;
 }
-
+nav li:hover .submenu {
+    display: block;
+}
 nav li {
     display: inline-block;
     vertical-align: top;
     text-align: left;
 }
+.a-submenu:hover .nivel-2{
+    display: block;
+}
+.nivel-2{
+    position: absolute;
+    top: 42px;
+    left: 100%;
+    width: 250px !important;
+}
 
+.submenu li {
+    color: red;
+    display: block;
+}
+.submenu li > a{
+    border-bottom: 5px solid #00A8A6;
+    color: #48463F;
+    display: block;
+    padding: 10px 4px
+}
+.submenu li > a:hover{
+    border-bottom: 5px solid #be6b50;
+    color: #be6b50;
 
+}
+.submenu,.nivel-2{
+    background: rgba(255,255,255,0.8);
+    display: none;
+    position: absolute;
+    width: 138px;
+    z-index: 100;
+}
+.a-next{
+    position: relative;
+}
+.a-next:hover .next{
+    display: block;
+}
+.next{
+    background: #00A8A6;
+    color: #fff;
+    display: none   ;
+    font-size: .65em;
+    position: absolute;
+    left: 0px;
+    top: 21px;
+    width: 480px;
+    z-index: 2;
+}
 #network{
     background: #48463f;
     -webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;
     text-align: right;
     padding-right: 4px;
-    width: 1060px;
+    margin: 0 auto	;
+    width: 1060px
 }
 
 #network a{
@@ -181,7 +283,7 @@ nav li {
     max-width: 40px;
 }
 .active{
-    border-bottom: 5px solid #be6b50;
+    border-bottom: 5px solid #00A8A6;;
 
 }
 
@@ -192,7 +294,7 @@ Footer
 footer {
     background: #48463f;
     clear: both;
-    margin: 200px 0 0;
+    margin: 0 auto	;
     width: 1060px
 }
 footer a {
@@ -284,4 +386,10 @@ Portafolio
 }
 .contend-portafolio{
     background: #fff;
+}
+/*=================================================================
+States
+===================================================================*/
+span.orange{
+    background: #F27227;
 }
